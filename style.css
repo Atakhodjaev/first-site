@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header start */
+header {
+  background-color: rgb(3, 3, 23);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_left > h3 {
+  font-weight: 600;
+  color: #3a68b8;
+  font-size: 22.5px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  background: #3a68b8;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-height: 42px;
+}
+/* Header finish */
+
+/* Main start */
+main {
+  background-color: #08091c;
+}
+
+.main_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0px;
+}
+
+.main_content > img {
+  width: 390px;
+}
+
+.main_content__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main_content__left > span {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #3a68b8;
+}
+
+.main_content__left > h1 {
+  font-weight: 800;
+  font-size: 55px;
+  color: #fff;
+}
+
+.main_content__left > p {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.Logoipsum {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 350px;
+}
+/* Main finish */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  color: #fff;
+}
+
+.science-block {
+  background-color: #020a18;
+  padding: 37px 0 150px 0;
+}
+
+.science-block-inner {
+  display: flex;
+}
+.science-block_left {
+  width: 50%;
+}
+.science-block_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.science-block_img {
+  width: 100%;
+}
+
+.science-block_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.science-block_description {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 30px;
+}
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #3a68b8;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  align-self: flex-start;
+}
+
+.cards-block {
+  background-color: #020a18;
+  display: flex;
+  gap: 30px;
+}
+.card {
+  width: 20%;
+  background: rgb(13, 20, 34);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 20, 34, 1) 0%,
+    rgba(25, 32, 45, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+.card_img {
+}
+.card_title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 30px;
+}
+.card_description {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+/* internet */
+.internet {
+  background-color: #020a18;
+}
+
+.internet-inner {
+  display: flex;
+}
+
+.internet-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.internet_title {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.internet_description {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  margin-top: 40px;
+  opacity: 0.7;
+}
+
+.internet-right {
+  width: 50%;
+}
+/* internet-end */
+
+/* footer start */
+.footer {
+  background-color: #08091c;
+  display: flex;
+}
+
+.footer-top {
+  text-align: right;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.footer-main > h5 {
+  font-weight: 600;
+  font-size: 15.9627px;
+  line-height: 22px;
+  color: #3a68b8;
+  gap: 30px;
+}
+
+.footer-main > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-main > p {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.6;
+  gap: 30px;
+}
+
+.email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.location {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
